@@ -35,7 +35,6 @@ import re
 
 message = 'Call me at 713-555-9000 or 718-555-6000'
 phone_num_regex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
-mo = phone_num_regex.findall(message) # mo -- matching object
+mo = phone_num_regex.findall(message) 
 
-# print(mo.group()) #  -- used with .search() to
-print(mo) # -- used with .findall()
+print(mo) 

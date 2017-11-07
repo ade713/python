@@ -4,22 +4,25 @@ import re
 
 def strong_password_detection(password):
     password_regex = re.compile(r'''
-        (
-            (\w){8,}
-            ([A-Z])+
-            ([a-z])+
-            (\d)+
-        )
-    ''',re.VERBOSE)
+        
+           ((\w{8,})
+            ([A-Z]+)
+            ([a-z]+)
+            (\d+))
+        
+    ''', re.VERBOSE)
+
+    # password_regex = re.compile(r'')
 
     strong_password = password_regex.findall(password)
+    print(strong_password)
 
     if strong_password:
         return True
     else:
         return False
 
-
+print('Enter your password: ')
 your_password = input()
 
 if strong_password_detection(your_password):

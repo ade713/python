@@ -1,0 +1,9 @@
+2017-11-07 15:54:21,625 - DEBUG - Start program...
+2017-11-07 15:54:21,625 - DEBUG - Start factorial(5)
+2017-11-07 15:54:21,625 - DEBUG - i is 1, total is 1
+2017-11-07 15:54:21,625 - DEBUG - i is 2, total is 2
+2017-11-07 15:54:21,625 - DEBUG - i is 3, total is 6
+2017-11-07 15:54:21,626 - DEBUG - i is 4, total is 24
+2017-11-07 15:54:21,626 - DEBUG - i is 5, total is 120
+2017-11-07 15:54:21,626 - DEBUG - Return value is 120
+2017-11-07 15:54:21,626 - DEBUG - End program...
